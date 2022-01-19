@@ -19413,7 +19413,7 @@ _.x=h},
 Yz(){var s=0,r=A.a_(t.OR),q,p
 var $async$Yz=A.V(function(a,b){if(a===1)return A.X(b,r)
 while(true)switch(s){case 0:s=3
-return A.a1(new A.lb(A.aV(t.Rj)).yM("GET","https://udmeu9wmdk.sharedwithexpose.com/api/Food",null),$async$Yz)
+return A.a1(new A.lb(A.aV(t.Rj)).yM("GET","https://udmeu9wmdk.sharedwithexpose.com/api/food",null),$async$Yz)
 case 3:p=b
 if(p.b!==200){q=new A.dc(null,"Please try again",t.hM)
 s=1
