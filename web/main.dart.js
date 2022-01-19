@@ -19413,7 +19413,7 @@ _.x=h},
 Yz(){var s=0,r=A.a_(t.OR),q,p
 var $async$Yz=A.V(function(a,b){if(a===1)return A.X(b,r)
 while(true)switch(s){case 0:s=3
-return A.a1(new A.lb(A.aV(t.Rj)).yM("GET","https://ofsw4jsqxj.sharedwithexpose.com/api/Food",null),$async$Yz)
+return A.a1(new A.lb(A.aV(t.Rj)).yM("GET","https://udmeu9wmdk.sharedwithexpose.com/api/Food",null),$async$Yz)
 case 3:p=b
 if(p.b!==200){q=new A.dc(null,"Please try again",t.hM)
 s=1
@@ -19426,7 +19426,7 @@ a97(){var s=0,r=A.a_(t.Xt),q,p,o
 var $async$a97=A.V(function(a,b){if(a===1)return A.X(b,r)
 while(true)switch(s){case 0:p=t.X
 s=3
-return A.a1(new A.lb(A.aV(t.Rj)).yM("GET","https://ofsw4jsqxj.sharedwithexpose.com/api/transaction",A.aK(["Content-Type","application/json","Authorization","Bearer "+A.d($.LN)],p,p)),$async$a97)
+return A.a1(new A.lb(A.aV(t.Rj)).yM("GET","https://udmeu9wmdk.sharedwithexpose.com/api/transaction",A.aK(["Content-Type","application/json","Authorization","Bearer "+A.d($.LN)],p,p)),$async$a97)
 case 3:o=b
 if(o.b!==200){q=new A.dc(null,"Please try again",t.R4)
 s=1
@@ -19439,7 +19439,7 @@ a99(a){var s=0,r=A.a_(t.Yd),q,p,o
 var $async$a99=A.V(function(b,c){if(b===1)return A.X(c,r)
 while(true)switch(s){case 0:p=t.X
 s=3
-return A.a1(new A.lb(A.aV(t.Rj)).l1("POST","https://ofsw4jsqxj.sharedwithexpose.com/api/checkout",A.aK(["Content-Type","application/json","Authorization","Bearer "+A.d($.LN)],p,p),B.a7.ug(A.aK(["food_id",a.b.a,"user_id",a.r.a,"quantity",a.c,"total",a.d,"status","PENDING"],p,t.z),null),null),$async$a99)
+return A.a1(new A.lb(A.aV(t.Rj)).l1("POST","https://udmeu9wmdk.sharedwithexpose.com/api/checkout",A.aK(["Content-Type","application/json","Authorization","Bearer "+A.d($.LN)],p,p),B.a7.ug(A.aK(["food_id",a.b.a,"user_id",a.r.a,"quantity",a.c,"total",a.d,"status","PENDING"],p,t.z),null),null),$async$a99)
 case 3:o=c
 if(o.b!==200){q=new A.dc(null,"Please try again",t.l9)
 s=1
@@ -19452,7 +19452,7 @@ a9w(a,b){var s=0,r=A.a_(t.ya),q,p,o,n
 var $async$a9w=A.V(function(c,d){if(c===1)return A.X(d,r)
 while(true)switch(s){case 0:o=t.X
 s=3
-return A.a1(new A.lb(A.aV(t.Rj)).l1("POST","https://ofsw4jsqxj.sharedwithexpose.com/api/login",A.aK(["Content-Type","application/json"],o,o),B.a7.ug(A.aK(["email",a,"password",b],o,o),null),null),$async$a9w)
+return A.a1(new A.lb(A.aV(t.Rj)).l1("POST","https://udmeu9wmdk.sharedwithexpose.com/api/login",A.aK(["Content-Type","application/json"],o,o),B.a7.ug(A.aK(["email",a,"password",b],o,o),null),null),$async$a9w)
 case 3:n=d
 if(n.b!==200){q=new A.dc(null,"Please try again",t.fF)
 s=1
@@ -19468,7 +19468,7 @@ LM(a,b,c){var s=0,r=A.a_(t.ya),q,p,o,n,m
 var $async$LM=A.V(function(d,e){if(d===1)return A.X(e,r)
 while(true)switch(s){case 0:n=t.X
 s=3
-return A.a1(new A.lb(A.aV(t.Rj)).l1("POST","https://ofsw4jsqxj.sharedwithexpose.com/api/register",A.aK(["Content-Type","application/json"],n,n),B.a7.ug(A.aK(["name",a.b,"email",a.c,"password",b,"password_confirmation",b,"address",a.d,"city",a.r,"houseNumber",a.e,"phoneNumber",a.f],n,n),null),null),$async$LM)
+return A.a1(new A.lb(A.aV(t.Rj)).l1("POST","https://udmeu9wmdk.sharedwithexpose.com/api/register",A.aK(["Content-Type","application/json"],n,n),B.a7.ug(A.aK(["name",a.b,"email",a.c,"password",b,"password_confirmation",b,"address",a.d,"city",a.r,"houseNumber",a.e,"phoneNumber",a.f],n,n),null),null),$async$LM)
 case 3:m=e
 if(m.b!==200){q=new A.dc(null,"Please try again",t.fF)
 s=1
@@ -19481,7 +19481,7 @@ break
 case 4:s=6
 return A.a1(A.a9x(c),$async$LM)
 case 6:n=e.a
-if(n!=null)o=o.a77(B.c.T("https://ofsw4jsqxj.sharedwithexpose.com/api/storage/",n))
+if(n!=null)o=o.a77(B.c.T("https://udmeu9wmdk.sharedwithexpose.com/api/storage/",n))
 case 5:q=new A.dc(o,null,t.fF)
 s=1
 break
@@ -19489,7 +19489,7 @@ case 1:return A.Y(q,r)}})
 return A.Z($async$LM,r)},
 a9x(a){var s=0,r=A.a_(t.ue),q
 var $async$a9x=A.V(function(b,c){if(b===1)return A.X(c,r)
-while(true)switch(s){case 0:q=A.aAG("POST",A.kH("https://ofsw4jsqxj.sharedwithexpose.com/api/user/photo",0,null)).r
+while(true)switch(s){case 0:q=A.aAG("POST",A.kH("https://udmeu9wmdk.sharedwithexpose.com/api/user/photo",0,null)).r
 q.n(0,"Content-Type","application/json")
 q.n(0,"Authorization","Bearer "+A.d($.LN))
 s=2
