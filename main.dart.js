@@ -22570,7 +22570,7 @@ aro:function aro(){},
 a_7(){var s=0,r=A.o(t.b8),q,p
 var $async$a_7=A.k(function(a,b){if(a===1)return A.l(b,r)
 while(true)switch(s){case 0:s=3
-return A.i(new A.eu(A.aQ(t.Q)).mC("GET",A.hh("http","myproperti.go.yj.fr","/api/artikels",null),null),$async$a_7)
+return A.i(new A.eu(A.aQ(t.Q)).mC("GET",A.hh("https","myproperti.go.yj.fr","/api/artikels",null),null),$async$a_7)
 case 3:p=b
 if(p.b!==200){q=new A.c9(null,"Please try again",t.b8)
 s=1
@@ -22582,7 +22582,7 @@ return A.n($async$a_7,r)},
 a7z(){var s=0,r=A.o(t.gk),q,p
 var $async$a7z=A.k(function(a,b){if(a===1)return A.l(b,r)
 while(true)switch(s){case 0:s=3
-return A.i(new A.eu(A.aQ(t.Q)).mC("GET",A.hh("http","myproperti.go.yj.fr","/api/kategori",null),null),$async$a7z)
+return A.i(new A.eu(A.aQ(t.Q)).mC("GET",A.hh("https","myproperti.go.yj.fr","/api/kategori",null),null),$async$a7z)
 case 3:p=b
 if(p.b!==200){q=new A.c9(null,"Please try again",t.gk)
 s=1
@@ -22594,7 +22594,7 @@ return A.n($async$a7z,r)},
 abn(){var s=0,r=A.o(t.Gf),q,p
 var $async$abn=A.k(function(a,b){if(a===1)return A.l(b,r)
 while(true)switch(s){case 0:s=3
-return A.i(new A.eu(A.aQ(t.Q)).mC("GET",A.hh("http","myproperti.go.yj.fr","/api/properti",null),null),$async$abn)
+return A.i(new A.eu(A.aQ(t.Q)).mC("GET",A.hh("https","myproperti.go.yj.fr","/api/properti",null),null),$async$abn)
 case 3:p=b
 if(p.b!==200){q=new A.c9(null,"Please try again",t.Gf)
 s=1
@@ -22606,7 +22606,7 @@ return A.n($async$abn,r)},
 abl(a){var s=0,r=A.o(t.Gf),q,p
 var $async$abl=A.k(function(b,c){if(b===1)return A.l(c,r)
 while(true)switch(s){case 0:s=3
-return A.i(new A.eu(A.aQ(t.Q)).mC("GET",A.hh("http","myproperti.go.yj.fr","/api/properti",A.ai(["kategori_id",""+a],t.N,t.z)),null),$async$abl)
+return A.i(new A.eu(A.aQ(t.Q)).mC("GET",A.hh("https","myproperti.go.yj.fr","/api/properti",A.ai(["kategori_id",""+a],t.N,t.z)),null),$async$abl)
 case 3:p=c
 if(p.b!==200){q=new A.c9(null,"Error",t.Gf)
 s=1
@@ -22617,7 +22617,7 @@ case 1:return A.m(q,r)}})
 return A.n($async$abl,r)},
 O5(a){var s=0,r=A.o(t.lN),q,p,o,n,m,l,k
 var $async$O5=A.k(function(b,c){if(b===1)return A.l(c,r)
-while(true)switch(s){case 0:n=A.hh("http","myproperti.go.yj.fr","/api/properti/f/"+a,null)
+while(true)switch(s){case 0:n=A.hh("https","myproperti.go.yj.fr","/api/properti/f/"+a,null)
 l=A
 k=J
 s=3
@@ -22637,7 +22637,7 @@ case 1:return A.m(q,r)}})
 return A.n($async$O5,r)},
 BY(a,b){var s=0,r=A.o(t.lN),q,p,o,n,m,l,k,j,i,h,g
 var $async$BY=A.k(function(c,d){if(c===1)return A.l(d,r)
-while(true)switch(s){case 0:j=A.hh("http","myproperti.go.yj.fr","/api/add_properti",null)
+while(true)switch(s){case 0:j=A.hh("https","myproperti.go.yj.fr","/api/add_properti",null)
 i=$
 h=A
 g=J
@@ -22687,7 +22687,7 @@ case 3:return A.m(null,r)}})
 return A.n($async$C_,r)},
 O6(a,b){var s=0,r=A.o(t.lN),q,p,o,n,m,l,k,j,i,h,g,f,e
 var $async$O6=A.k(function(c,d){if(c===1)return A.l(d,r)
-while(true)switch(s){case 0:n=A.hh("http","myproperti.go.yj.fr","api/properti/u/"+b,null)
+while(true)switch(s){case 0:n=A.hh("https","myproperti.go.yj.fr","api/properti/u/"+b,null)
 A.dl(n)
 p=t.N
 m=new A.eu(A.aQ(t.Q))
@@ -22711,7 +22711,7 @@ case 1:return A.m(q,r)}})
 return A.n($async$O6,r)},
 BZ(a,b){var s=0,r=A.o(t.lN),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$BZ=A.k(function(a0,a1){if(a0===1)return A.l(a1,r)
-while(true)switch(s){case 0:n=A.hh("http","myproperti.go.yj.fr","api/properti/u/"+a,null)
+while(true)switch(s){case 0:n=A.hh("https","myproperti.go.yj.fr","api/properti/u/"+a,null)
 s=3
 return A.i(A.C_(b),$async$BZ)
 case 3:m=a1
@@ -22740,7 +22740,7 @@ case 1:return A.m(q,r)}})
 return A.n($async$BZ,r)},
 abk(a,b){var s=0,r=A.o(t.z),q,p,o
 var $async$abk=A.k(function(c,d){if(c===1)return A.l(d,r)
-while(true)switch(s){case 0:o=A.hh("http","myproperti.go.yj.fr","/api/delete/p/"+a,null)
+while(true)switch(s){case 0:o=A.hh("https","myproperti.go.yj.fr","/api/delete/p/"+a,null)
 A.dl(o)
 p=t.N
 s=3
@@ -22753,7 +22753,7 @@ QJ(a,b){var s=0,r=A.o(t.iR),q,p,o,n,m
 var $async$QJ=A.k(function(c,d){if(c===1)return A.l(d,r)
 while(true)switch(s){case 0:n=t.N
 s=3
-return A.i(new A.eu(A.aQ(t.Q)).hQ("POST",A.hh("http","myproperti.go.yj.fr","/api/login",null),A.ai(["Content-Type","application/json"],n,n),B.T.mW(A.ai(["email",a,"password",b],n,n),null),null),$async$QJ)
+return A.i(new A.eu(A.aQ(t.Q)).hQ("POST",A.hh("https","myproperti.go.yj.fr","/api/login",null),A.ai(["Content-Type","application/json"],n,n),B.T.mW(A.ai(["email",a,"password",b],n,n),null),null),$async$QJ)
 case 3:m=d
 if(m.b!==200){q=new A.c9(null,"Please try again",t.iR)
 s=1
@@ -22774,7 +22774,7 @@ var $async$Ep=A.k(function(d,e){if(d===1)return A.l(e,r)
 while(true)switch(s){case 0:n=t.N
 m=t.T
 s=3
-return A.i(new A.eu(A.aQ(t.Q)).hQ("POST",A.hh("http","myproperti.go.yj.fr","/api/register",null),A.ai(["Content-Type","application/json"],n,n),B.T.mW(A.ai(["name",a.b,"email",a.c,"password",b,"password_confirmation",b,"no_hp",J.da(a.e)],m,m),null),null),$async$Ep)
+return A.i(new A.eu(A.aQ(t.Q)).hQ("POST",A.hh("https","myproperti.go.yj.fr","/api/register",null),A.ai(["Content-Type","application/json"],n,n),B.T.mW(A.ai(["name",a.b,"email",a.c,"password",b,"password_confirmation",b,"no_hp",J.da(a.e)],m,m),null),null),$async$Ep)
 case 3:l=e
 if(l.b!==200){q=new A.c9(null,"Please try again",t.iR)
 s=1
@@ -22801,7 +22801,7 @@ case 1:return A.m(q,r)}})
 return A.n($async$Ep,r)},
 Eq(a,b){var s=0,r=A.o(t.iR),q,p,o,n,m,l,k,j,i
 var $async$Eq=A.k(function(c,d){if(c===1)return A.l(d,r)
-while(true)switch(s){case 0:o=A.hh("http","myproperti.go.yj.fr","/api/user/u",null)
+while(true)switch(s){case 0:o=A.hh("https","myproperti.go.yj.fr","/api/user/u",null)
 s=3
 return A.i(A.hc(),$async$Eq)
 case 3:n=d.a
@@ -22832,7 +22832,7 @@ aid(a){var s=0,r=A.o(t.iR),q,p,o
 var $async$aid=A.k(function(b,c){if(b===1)return A.l(c,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.i(new A.eu(A.aQ(t.Q)).mC("GET",A.hh("http","myproperti.go.yj.fr","/api/user",null),A.ai(["Content-Type","application/json","Authorization","Bearer "+a],p,p)),$async$aid)
+return A.i(new A.eu(A.aQ(t.Q)).mC("GET",A.hh("https","myproperti.go.yj.fr","/api/user",null),A.ai(["Content-Type","application/json","Authorization","Bearer "+a],p,p)),$async$aid)
 case 3:o=c
 if(o.b!==200){q=new A.c9(null,"Please try again",t.iR)
 s=1
@@ -22856,7 +22856,7 @@ QI(a){var s=0,r=A.o(t.z),q,p,o
 var $async$QI=A.k(function(b,c){if(b===1)return A.l(c,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.i(new A.eu(A.aQ(t.Q)).hQ("POST",A.hh("http","myproperti.go.yj.fr","/api/logout",null),A.ai(["Content-Type","application/json","Authorization","Bearer "+a],p,p),null,null),$async$QI)
+return A.i(new A.eu(A.aQ(t.Q)).hQ("POST",A.hh("https","myproperti.go.yj.fr","/api/logout",null),A.ai(["Content-Type","application/json","Authorization","Bearer "+a],p,p),null,null),$async$QI)
 case 3:o=c
 s=4
 return A.i(A.hc(),$async$QI)
